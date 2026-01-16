@@ -198,7 +198,7 @@ class Block(nn.Module):
         return output
 
 
-class ToyGPT(nn.Module):
+class MinimalGPT(nn.Module):
 
     def __init__(self, n_vocab, n_seq, n_block, n_head, emb_dim, key_dim, val_dim, dropout=0.2):
         super().__init__()
